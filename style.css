@@ -1,23 +1,29 @@
+/* Include padding & border within dimensions of elements */
+* {
+  box-sizing:border-box;
+}
+
 /* set header attributes */
 header{
-  background-color: #b5b5b5;
-  height: 170px;
+  background-image: url("/images/header.jpeg");
+  background-size: contain;
+  height: 218px;
   margin: 0px;
   padding: 10px;
 }
 
 /* set attributes for h1 heading */
 h1{
-  font-family:"hoefler text", didot, serif;
-  font-size: 55px;
-  color: #361452;
+  font-family:rockwell, "hoefler text", didot, serif;
+  font-size: 70px;
+  color: #0081d1;
   text-align:center;
 }
 
 /* set attributes for sub-heading */
 header>p {
   text-align: center;
-  color: #361452;
+  color: #9fd0e0;
   font-size: 25px;
   font-family: didot, serif;
   font-weight: 500px;
@@ -25,13 +31,41 @@ header>p {
 
 /* set attributes for h2 headings */
 h2 {
-  font-family: didot, serif;
+  font-family: rockwell, didot, serif;
   text-align: center;
+  text-decoration: underline;
+  color: #0d1b34;
+  font-size: 25px;
 }
 
 /* set background color of body */
 body {
-  background-color: #999999;
+  background-color: #a1a9b5;
+  color: #01040e;
+}
+
+/* photo settings */
+.photo {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
+
+/* ruler settings */
+hr {
+  height: 5px;
+  background-color: #6b6b6b;
+  border-color: #7171c1;
+}
+
+/* set footer background image */
+footer{
+  background-image: url("/images/footer.webp");
+  background-size: auto;
+  padding: 10px;
+  color: #8514f5;
 }
 
 /* define colors for links in various states */
@@ -41,9 +75,3 @@ body {
          font-size: 20px;}
   a:active{color:#53a6ee;}
 
-/* set footer background image */
-footer{
-  background-image: url("/images/footer.webp");
-  background-size: auto;
-  padding: 10px;
-}
