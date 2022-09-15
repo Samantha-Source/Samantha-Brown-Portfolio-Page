@@ -1,0 +1,49 @@
+/* set header attributes */
+header{
+  background-color: #b5b5b5;
+  height: 170px;
+  margin: 0px;
+  padding: 10px;
+}
+
+/* set attributes for h1 heading */
+h1{
+  font-family:"hoefler text", didot, serif;
+  font-size: 55px;
+  color: #361452;
+  text-align:center;
+}
+
+/* set attributes for sub-heading */
+header>p {
+  text-align: center;
+  color: #361452;
+  font-size: 25px;
+  font-family: didot, serif;
+  font-weight: 500px;
+}
+
+/* set attributes for h2 headings */
+h2 {
+  font-family: didot, serif;
+  text-align: center;
+}
+
+/* set background color of body */
+body {
+  background-color: #999999;
+}
+
+/* define colors for links in various states */
+  a:link{color:blue;}
+  a:visited{color:darkviolet;}
+  a:hover{color:#f532e5;
+         font-size: 20px;}
+  a:active{color:#53a6ee;}
+
+/* set footer background image */
+footer{
+  background-image: url("/images/footer.webp");
+  background-size: auto;
+  padding: 10px;
+}
