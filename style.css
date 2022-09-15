@@ -1,4 +1,4 @@
-/* Include padding & border within dimensions of elements */
+/* include padding & border within dimensions of elements */
 * {
   box-sizing:border-box;
 }
