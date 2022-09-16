@@ -65,13 +65,13 @@ footer{
   background-image: url("/images/footer.jpeg");
   background-size: auto;
   padding: 10px;
-  color: #8514f5;
+  color: #FFF
 }
 
 /* define colors for links in various states */
-  a:link{color:blue;}
-  a:visited{color:darkviolet;}
-  a:hover{color:#f532e5;
+  a:link{color:#A6FEFF;}
+  a:visited{color:#CC39F2;}
+  a:hover{color:#C9ED00;
          font-size: 20px;}
-  a:active{color:#53a6ee;}
+  a:active{color:#F87100;}
 
