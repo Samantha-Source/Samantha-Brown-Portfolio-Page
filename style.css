@@ -68,6 +68,12 @@ footer{
   color: #FFF
 }
 
+
+.bullet{
+	list-style-image: url("/images/bullet-point.jpg");
+}
+	
+
 /* define colors for links in various states */
   a:link{color:#A6FEFF;}
   a:visited{color:#CC39F2;}
