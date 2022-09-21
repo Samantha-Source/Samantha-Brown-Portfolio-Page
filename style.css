@@ -69,8 +69,8 @@ footer{
 }
 
 
-/* set ordered list bullets to be inside container */
-ol{
+/* set list bullets to be inside container */
+ol, ul{
 	list-style-position: inside;
 }
 
@@ -83,6 +83,13 @@ ol{
 /* justify text */
 .justify {
 	text-align: justify;
+}
+
+
+/* wrapper */
+.wrapper {
+	margin: auto;
+	width: 353px;
 }
 	
 
