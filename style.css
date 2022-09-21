@@ -69,8 +69,20 @@ footer{
 }
 
 
-.bullet{
-	list-style-image: url("/images/bullet-point.jpg");
+/* set ordered list bullets to be inside container */
+ol{
+	list-style-position: inside;
+}
+
+/* centers text */
+.center {
+	text-align: center;
+}
+
+
+/* justify text */
+.justify {
+	text-align: justify;
 }
 	
 
