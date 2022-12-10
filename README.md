@@ -1,7 +1,7 @@
 # Portfolio-Page
  Samantha Brown's Portfolio Page
 
-This is the initial portfolio page being created as part of Thinkful's prep course for engineering.  It will be updated frequently as I gain new skills and progress as a developer.  This page will be a place for me to show off my skills and to play with new things that I learn - it will also serve to show employers and other developers who I am and what I bring to the table.
+This is the initial portfolio page being created as part of Thinkful's prep course for engineering.  It will be updated periodically as I gain new skills and progress as a developer.  This page will be a place for me to show off my skills and to play with new things that I learn - it will also serve to show employers and other developers who I am and what I bring to the table.
 
 Created by Samantha M. Brown - 2022
 
